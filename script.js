@@ -4,6 +4,9 @@ class Person {
 		this.name=name;
 		this.age=age;
 	}
+	set newage(age){
+	    this.age=age
+	}
 }
 
 class Student extends Person {
